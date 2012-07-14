@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="app_name">Studroid</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_home">Studroid</string>
+    <string name="schedule_button">Schedule</string>
+    <string name="exam_button">Exams</string>
+    <string name="subject_button">Subjects</string>
+    <string name="utility_button">Utilities</string>
+    <string name="home_about">About</string>
+    <string name="home_help">Help</string>
+    <string name="home_setting">Settings</string>
+    <string name="day_monday">Monday</string>
+    <string name="day_tuesday">Tuesday</string>
+    <string name="day_wednesday">Wednesday</string>
+    <string name="day_thursday">Thursday</string>
+    <string name="day_friday">Friday</string>
+    <string name="day_saturday">Saturday</string>
+    <string name="day_sunday">Sunday</string>
+    <string name="utility_dynamicAlarm">Dynamic Alarm</string>
+    <string name="utility_scheduleWarning">Schedule Warning</string>
+    <string name="utility_examWarning">Exam Warning</string>
+    <string name="utility_eventWarning">Event Warning</string>
+    <string name="utility_linkFacebook">Link to Facebook</string>
+
+</resources>

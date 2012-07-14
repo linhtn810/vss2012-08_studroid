@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" >
+    
+    <CheckBoxPreference  
+        android:title="Dynamic Alarm"
+        android:defaultValue="false"
+        android:summary="Auto create alarm to wake you up 1 hour before first lesson"
+        android:key="dynamicAlarm"/>
+    
+    <Preference
+        android:title="Schedule Warning"
+        android:summary="Warning about tomorrow lesson"
+        android:key="scheduleWarning"/>
+    
+    <Preference
+        android:title="Exam Warning"
+        android:summary="Warning about upcoming exams"
+        android:key="examWarning"/>
+    
+    <Preference
+        android:title="Event Warning"
+        android:summary="Warning about upcoming event(Assignment, Presentation)"
+        android:key="eventWarning"/>
+    
+    <CheckBoxPreference
+        android:title="Link to Facebook"
+        android:defaultValue="false"
+        android:summary="Post warning messages to your Facebook Timeline"
+        android:key="linkFacebook"/>
+    
+</PreferenceScreen>

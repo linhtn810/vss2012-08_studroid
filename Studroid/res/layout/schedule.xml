@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:scrollbars="none" >
+
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            
+            <Button
+	            android:text="@string/day_monday"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"/>
+	        
+	        <Button
+	            android:text="@string/day_tuesday"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"/>
+	        
+	        <Button
+	            android:text="@string/day_wednesday"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"/>
+	        
+	        <Button
+	            android:text="@string/day_thursday"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"/>
+	        
+	        <Button
+	            android:text="@string/day_friday"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"/>
+	        
+	        <Button
+	            android:text="@string/day_saturday"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+    
+    <TextView 
+        android:text="Somethoafsdlafds,vxcblajhsdlfkajhsdalfjhsadlfa;jda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"/>
+</LinearLayout>

@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	<LinearLayout
+	    android:baselineAligned="false"
+	    android:layout_width="fill_parent"
+	    android:layout_weight="1"
+	    android:layout_height="match_parent"
+	    android:orientation="horizontal" >
+	    
+	    <LinearLayout
+	        android:id="@+id/ScheduleButton"
+	        android:orientation="vertical"
+	        android:layout_width="wrap_content"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:layout_weight="1">
+	    
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center_horizontal"
+		        android:background="#ffffff"
+		        android:text="@string/schedule_button" />
+		    
+		    <ImageView 
+		        android:src="@drawable/ic_launcher"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center_horizontal"/>
+	    
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:id="@+id/SubjectButton"
+	        android:orientation="vertical"
+	        android:layout_width="wrap_content"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:layout_weight="1">
+	    
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center_horizontal"
+		        android:text="@string/subject_button" />
+		    
+		    <ImageView 
+		        android:src="@drawable/ic_launcher"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center_horizontal"/>
+	    
+	    </LinearLayout>
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:baselineAligned="false"
+	    android:layout_width="fill_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1"
+	    android:orientation="horizontal">
+	    
+	    <LinearLayout
+	        android:id="@+id/ExamButton"
+	        android:orientation="vertical"
+	        android:layout_width="wrap_content"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:layout_weight="1">
+	    
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center_horizontal"
+		        android:background="#ffffff"
+		        android:text="@string/exam_button" />
+		    
+		    <ImageView 
+		        android:src="@drawable/ic_launcher"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center_horizontal"/>
+	    
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:id="@+id/UtilityButton"
+	        android:orientation="vertical"
+	        android:layout_width="wrap_content"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:layout_weight="1">
+	    
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center_horizontal"
+		        android:background="#ffffff"
+		        android:text="@string/utility_button" />
+		    
+		    <ImageView 
+		        android:src="@drawable/ic_launcher"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center_horizontal"/>
+	    
+	    </LinearLayout>
+	</LinearLayout>
+</LinearLayout> 

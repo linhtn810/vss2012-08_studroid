@@ -1,0 +1,5 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home_setting" android:title="@string/home_setting" android:icon="@drawable/action_settings"></item><item android:id="@+id/home_help" android:title="@string/home_help" android:icon="@drawable/action_help"></item><item android:id="@+id/home_about" android:title="@string/home_about" android:icon="@drawable/action_about"></item>
+    
+    
+</menu>
