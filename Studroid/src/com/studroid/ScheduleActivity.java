@@ -16,17 +16,8 @@ public class ScheduleActivity extends Activity {
 	
 	@Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.schedule, menu);
+        //getMenuInflater().inflate(R.menu.schedule, menu);
         return true;
     }
 	
-	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-		switch (item.getItemId()) {
-		case R.id.schedule_add:
-		case R.id.schedule_delete:
-		case R.id.schedule_edit:
-		}
-		return true;
-	}
 }

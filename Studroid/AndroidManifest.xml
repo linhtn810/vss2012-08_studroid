@@ -44,6 +44,10 @@
             android:name=".DaySchedule"
             android:label="DaySchedule" >
         </activity>
+        <activity
+            android:name=".AddSubject"
+            android:label="AddSubject">
+        </activity>
     </application>
 
 </manifest>
